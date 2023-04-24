@@ -29,16 +29,31 @@ Once you have Python 3 and the venv module installed, you can create and use vir
 
 To create a virtual environment:
 ''`
-* Linux and macOS: ```python3 -m venv venv```
-* Windows: ``python -m venv venv``
+* Linux and macOS:
+    ```
+    python3 -m venv venv
+    ```
+* Windows: 
+    ```
+    python -m venv venv
+    ```
 
 To activate the virtual environment:
 
-* Linux and macOS: ```source venv/bin/activate```
-* Windows: ```venv\Scripts\activate.bat```
+* Linux and macOS:
+    ```
+    source venv/bin/activate
+    ```
+* Windows:
+    ```
+    venv\Scripts\activate.bat
+    ```
 
 To deactivate the virtual environment:
 
-* All platforms: ```deactivate```
+* All platforms:
+    ```
+    deactivate
+    ```
 
 With these commands, you can create, activate, and deactivate virtual environments on Linux, macOS, and Windows.
