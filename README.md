@@ -15,15 +15,9 @@ The repository has the necessary file to automatically install all the requireme
 1. Linux and macOS:
     On Linux and macOS, Python 3 is usually pre-installed, and the venv module is bundled with it. To check if Python 3 is installed, you can open a terminal and type the following command:
 
-<<<<<<< HEAD
     ```
     python --version
     ```
-=======
-    '''
-    python --version
-    '''
->>>>>>> 9a5bc20c7074a64d5f13a4f53eddd5afef7dae3e
     
     If you get a version number as output, Python 3 is installed. If not, you can install Python 3 using the package manager for your Linux distribution or download it from the official website (https://www.python.org/downloads/) for macOS.
 2. Windows:
