@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/style.css" />
+    <title>ChatGPT Tweet Generator</title>
+  </head>
+  <body>
+    <h1>ChatGPT Tweet Generator</h1>
+    <form id="post-form" method="POST" enctype="multipart/form-data">
+      <div>
+        <label for="post_subject">Post Subject:</label>
+        <input type="text" id="post_subject" name="post_subject" />
+        <button id="generate_post_button">Generate Post</button>
+      </div>
+      <div>
+        <label for="generated_post">Generated Post:</label>
+        <textarea
+          id="generated_post"
+          name="generated_post"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <button type="button" id="preview_post_button">Preview Post</button>
+        <div
+          id="post_preview_container"
+          style="border: 1px solid #ccc; padding: 20px; margin-top: 10px"
+        ></div>
+      </div>
+      <div>
+        <button id="publish_post_button">Publish Post</button>
+      </div>
+    </form>
+    <script src="static/main.js"></script>
+  </body>
+</html>
